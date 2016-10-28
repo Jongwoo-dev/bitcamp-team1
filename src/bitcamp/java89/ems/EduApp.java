@@ -38,6 +38,7 @@ public class EduApp {
     System.out.println("[메뉴]");
     System.out.println("[메뉴2]");
     System.out.println("[메뉴3]");
+    System.out.println("[메뉴4]");
     System.out.println("1. 학생관리");
     System.out.println("2. 강사관리");
     System.out.println("3. 강의실관리");
