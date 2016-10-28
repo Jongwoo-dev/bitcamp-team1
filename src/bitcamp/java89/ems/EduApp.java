@@ -13,6 +13,7 @@ public class EduApp {
     StudentController studentController = new StudentController(keyScan);
 
     System.out.println("비트캠프 관리시스템에 오신걸 환영합니다.");
+    System.out.println("환영환영 ");
 
     loop:
     while (true) {
@@ -25,8 +26,11 @@ public class EduApp {
       case "go 2": teacherController.service(); break;
       case "go 3": classroomController.service(); break;
       case "go 4": textBookController.service(); break;
-      case "help2": System.out.println("fankkkkk"); break;
-      case "quit": System.out.println("Good bye!"); break loop;
+       case "help2": System.out.println("fankkkkk");
+                     System.out.println("one more");break;
+        case "help3": break;
+       case "help 1": break;
+        case "quit": System.out.println("Good bye!"); break loop;
       default:
         System.out.println("지원하지 않는 명령어입니다.");
       }
@@ -35,6 +39,7 @@ public class EduApp {
 
   public static void doMenu() {
     System.out.println("[메뉴]");
+    System.out.println("[메뉴2]");
     System.out.println("1. 학생관리");
     System.out.println("2. 강사관리");
     System.out.println("3. 강의실관리");
