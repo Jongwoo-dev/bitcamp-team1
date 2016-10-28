@@ -25,11 +25,6 @@ public class EduApp {
       case "go 2": teacherController.service(); break;
       case "go 3": classroomController.service(); break;
       case "go 4": textBookController.service(); break;
-<<<<<<< HEAD
-      case "help3": break;
-=======
-      case "help 1": break;
->>>>>>> 6179182c0628e829f005307ab08c247db7e14593
       case "quit": System.out.println("Good bye!"); break loop;
       default:
         System.out.println("지원하지 않는 명령어입니다.");
@@ -40,6 +35,7 @@ public class EduApp {
   public static void doMenu() {
     System.out.println("[메뉴]");
     System.out.println("[메뉴2]");
+    System.out.println("[메뉴3]");
     System.out.println("1. 학생관리");
     System.out.println("2. 강사관리");
     System.out.println("3. 강의실관리");
