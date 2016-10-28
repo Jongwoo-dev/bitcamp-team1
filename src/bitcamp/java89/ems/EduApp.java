@@ -13,6 +13,7 @@ public class EduApp {
     StudentController studentController = new StudentController(keyScan);
 
     System.out.println("비트캠프 관리시스템에 오신걸 환영합니다.");
+    System.out.println("커밋");
     System.out.println("환영환영 ");
 
     loop:
