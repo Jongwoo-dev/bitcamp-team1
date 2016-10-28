@@ -10,6 +10,7 @@ public class EduApp {
     TeacherController teacherController = new TeacherController(keyScan);
     ClassroomController classroomController = new ClassroomController(keyScan);
      TextBookController textBookController = new TextBookController(keyScan);
+    StudentController studentController = new StudentController(keyScan);
 
     System.out.println("비트캠프 관리시스템에 오신걸 환영합니다.");
 
@@ -20,6 +21,7 @@ public class EduApp {
 
       switch (command) {
       case "menu": doMenu(); break;
+      case "go 1" : studentController.service(); break;
       case "go 2": teacherController.service(); break;
       case "go 3": classroomController.service(); break;
       case "go 4": textBookController.service(); break;
