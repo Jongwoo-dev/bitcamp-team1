@@ -21,7 +21,7 @@ public class EduApp {
 
       switch (command) {
       case "menu": doMenu(); break;
-      case "go 1" : studentController.service(); break;
+      case "go 1": studentController.service(); break;
       case "go 2": teacherController.service(); break;
       case "go 3": classroomController.service(); break;
       case "go 4": textBookController.service(); break;
