@@ -28,8 +28,13 @@ public class EduApp {
       case "go 2": teacherController.service(); break;
       case "go 3": classroomController.service(); break;
       case "go 4": textBookController.service(); break;
-      case "quit": System.out.println("Good bye!"); break loop;
-      default:
+        case "help2": System.out.println("fankkkkk");
+                     System.out.println("one more");break;
+        case "help3": break;
+       case "help 1": break;
+        case "quit": System.out.println("Good bye!"); break loop;
+       case "quit": System.out.println("Good bye!"); break loop;
+       default:
         System.out.println("지원하지 않는 명령어입니다.");
       }
     }
