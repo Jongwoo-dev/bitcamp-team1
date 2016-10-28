@@ -15,6 +15,7 @@ public class EduApp {
     System.out.println("비트캠프 관리시스템에 오신걸 환영합니다.");
     System.out.println("커밋");
     System.out.println("환영환영 ");
+    System.out.ptintln("마지막마지막");
 
     loop:
     while (true) {
@@ -42,6 +43,7 @@ public class EduApp {
     System.out.println("[메뉴]");
     System.out.println("[메뉴2]");
     System.out.println("[메뉴3]");
+    System.out.println("[메뉴4]");
     System.out.println("1. 학생관리");
     System.out.println("2. 강사관리");
     System.out.println("3. 강의실관리");
